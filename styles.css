@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pretendard-Regular';
+}
+
+li {
+    list-style: none !important;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    height: 2477px;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 1280px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.menuwrap {
+    display: flex;
+    gap: 58px;
+}
+
+.menuwrap a {
+
+    font-size: 20pt;
+    color: #fff;
+}
+.header .logo img {
+    background-color: transparent;
+}
+.section1 {
+    width: 100%;
+    height: 843px;
+    position: relative;
+}
+
+.section1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section1 .section1-textwrap {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-left: 320px;
+    transform: translate(0, -50%);
+}
+
+.section1 .section1-textwrap > h1 {
+    font-size: 80px;
+    color: #ab86ff;
+}
+
+.section1 .section1-textwrap > p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.section2 {
+    width: 100vw;
+    height: 777px;
+    position: relative;
+}
+
+.section2 > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section2 .section2-container {
+    width: 1280px;
+    height: 530px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section2 .section2-container .sec2-textwrap {
+    margin: 0 0 20px 0;
+}
+.section2 .section2-container .sec2-textwrap> p {
+    font-size: 18px;
+    color: #6400ff;
+    font-weight: bold;
+}
+.section2 .section2-container .sec2-textwrap> h1 {
+    font-size: 48px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.sec2-itemwrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sec2-item {
+    width: 300px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000052;
+    border-radius: 50px;
+}
+
+.sec2-item .sec2-item-text {
+    text-align: center;
+    line-height: 1.4;
+}
+.sec2-item .sec2-item-text h1{
+    font-size: 24px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.sec2-item .sec2-item-text p {
+    font-size: 18px;
+    color: #fff;
+}
+
+
+
+/* sec3 */
+
+.section3 {
+    width: 100%;
+    height: 758px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.section3 .sec3-container {
+    width: 1280px;
+    height: 510px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sec3-textwrap h1{
+    font-size: 18px;
+    color: #6400ff;
+}
+
+.sec3-textwrap p {
+    font-size: 48px;
+    color: #000;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.section3 .sec3-container .sec3-itemwrap {
+    display: flex;
+    align-items: center;
+    margin-top: 58px;
+}
+
+.section3 .sec3-container .sec3-itemwrap .sec3-itemtextwrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 80px;
+    padding: 65px 85px;
+}
+
+.section3 .sec3-container .sec3-itemwrap .sec3-itemtextbox1 > h1 {
+    font-size: 18px;
+    color: #000;
+}
+
+.section3 .sec3-container .sec3-itemwrap .sec3-itemtextbox1 > p {
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+.sec3-itemtextbox2 p:nth-child(1){
+    font-size: 16px;
+}
+
+.sec3-itemtextbox2 p:nth-child(2){
+    font-size: 16px;
+    padding: 20px 0;
+}
